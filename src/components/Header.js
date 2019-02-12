@@ -6,7 +6,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Lizzy Mailho</h1>
-                <p>Beautiful Sacramento based artist. Commissioned art and teaching painting classes.</p>
+                <p>Sacramento based paint whisperer. Contact me to commission work or book a paint party.</p>
             </div>
         </div>
         <nav>
