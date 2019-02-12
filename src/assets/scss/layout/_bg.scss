@@ -38,6 +38,8 @@
 			background-repeat:		no-repeat,
 									repeat;
 			z-index: 2;
+			
+			content: none;
 		}
 
 		&:after {
@@ -46,10 +48,14 @@
 				'transform #{_duration(article)} ease-in-out',
 				'filter #{_duration(article)} ease-in-out'
 			));
-			background-image:		url('../../images/bg.jpg');
-			background-position:	center;
-			background-size:		cover;
-			background-repeat:		no-repeat;
+			// background-image:		url('../../images/bg.jpg');
+			// background-position:	center;
+			// background-size:		cover;
+			// background-repeat:		no-repeat;
+			background: #FF5F6D;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to bottom, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 			z-index: 1;
 		}
 
