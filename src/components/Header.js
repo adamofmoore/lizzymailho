@@ -11,7 +11,6 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li> */}
                 <li><a href="mailto:lizzymailhoart@gmailcom">Email</a></li>
                 <li><a href="https://www.instagram.com/bee_whimsical/" target="_blank" rel="noopener">Instagram</a></li>
                 <li><a href="https://www.etsy.com/shop/BeeWhimsicalShop" target="_blank" rel="noopener">Etsy</a></li>
