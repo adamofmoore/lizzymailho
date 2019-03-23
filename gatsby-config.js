@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Lizzy Mailho",
+    title: "Painting with Lizzy",
     author: "Lizzy Mailho",
-    description: "Sacramento based artist."
+    description: "Hosted paint parties by Sacramento based artist and instructor Lizzy Mailho."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
